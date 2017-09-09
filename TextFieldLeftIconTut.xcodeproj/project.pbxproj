@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81480DD71F63D52500BF3ABC /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 81480DD61F63D52500BF3ABC /* ReadMe */; };
 		81AFDE991F1BA019007B94B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AFDE981F1BA019007B94B8 /* main.m */; };
 		81AFDE9C1F1BA019007B94B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AFDE9B1F1BA019007B94B8 /* AppDelegate.m */; };
 		81AFDE9F1F1BA019007B94B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AFDE9E1F1BA019007B94B8 /* ViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81480DD61F63D52500BF3ABC /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		81AFDE941F1BA019007B94B8 /* TextFieldLeftIconTut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldLeftIconTut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AFDE981F1BA019007B94B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81AFDE9A1F1BA019007B94B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				81AFDE981F1BA019007B94B8 /* main.m */,
+				81480DD61F63D52500BF3ABC /* ReadMe */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81480DD71F63D52500BF3ABC /* ReadMe in Resources */,
 				81AFDEAA1F1BA01A007B94B8 /* LaunchScreen.storyboard in Resources */,
 				81AFDEA71F1BA01A007B94B8 /* Assets.xcassets in Resources */,
 				81AFDEA21F1BA019007B94B8 /* Main.storyboard in Resources */,
@@ -529,6 +533,7 @@
 				81AFDEC61F1BA01A007B94B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81AFDEC71F1BA01A007B94B8 /* Build configuration list for PBXNativeTarget "TextFieldLeftIconTutTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +542,7 @@
 				81AFDEC91F1BA01A007B94B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81AFDECA1F1BA01A007B94B8 /* Build configuration list for PBXNativeTarget "TextFieldLeftIconTutUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +551,7 @@
 				81AFDECC1F1BA01A007B94B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
